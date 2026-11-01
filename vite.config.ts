@@ -15,10 +15,10 @@ export default defineConfig({
       server: { entry: "server" },
       router: { basepath: base },
       pages: [
-        { path: "/" },
-        { path: "/produtos" },
-        { path: "/contato" },
-        { path: "/faq" },
+        { path: "./" },
+        { path: "./produtos" },
+        { path: "./contato" },
+        { path: "./faq" },
       ],
       prerender: {
         enabled: true,
